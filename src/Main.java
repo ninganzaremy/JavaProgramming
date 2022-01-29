@@ -38,6 +38,45 @@ public class Main {
                 System.out.println("Looking forward to the Weekend");
         }
        // Outputs "Looking forward to the Weekend"
+        //Java While Loop
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+        //The Do/While Loop
+        do {
+            System.out.println(i);
+            i++;
+        }
+        while (i < 9);
+
+        //Java For Loop
+        for (i = 0; i <= 10; i = i + 2) {
+            System.out.println(i);
+        }
+        // For-Each Loop
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String x : cars) {
+            System.out.println(x);
+        }
+        //Java Break
+        while (i < 13) {
+            System.out.println(i);
+            i++;
+            if (i == 4) {
+                break;
+            }
+        }
+        //Java Continue
+        while (i < 10) {
+            if (i == 4) {
+                i++;
+                continue;
+            }
+            System.out.println(i);
+            i++;
+        }
 
 
 
