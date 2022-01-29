@@ -77,6 +77,27 @@ public class Main {
             System.out.println(i);
             i++;
         }
+        //Java Arrays
+        String[] vehicles = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println(vehicles[0]);
+        //Change an Array Element
+        vehicles[0]= "Toyota";
+        //Array Length
+        System.out.println(vehicles.length);
+        //Loop Through an Array with For-Each
+        for (String car : cars) {
+            System.out.println(car);
+        }
+        //Multidimensional Arrays
+        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        for (i = 0; i < myNumbers.length; ++i) {
+            for(int j = 0; j < myNumbers[i].length; ++j) {
+                System.out.println(myNumbers[i][j]);
+            }
+        }
+
+
+
 
 
 
