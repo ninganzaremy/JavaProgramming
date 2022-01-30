@@ -96,12 +96,9 @@ public class Main {
             }
         }
 
-
-
-
-
-
-
+        JavaEncapsulation myObj = new JavaEncapsulation();
+        myObj.setName("John"); // Set the value of the name variable to "John"
+        System.out.println(myObj.getName());
     }
 
 }
