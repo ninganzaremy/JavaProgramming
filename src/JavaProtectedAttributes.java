@@ -6,7 +6,7 @@ public class JavaProtectedAttributes {
     protected int age = 24;
 }
 
-class Student extends JavaProtectedAttributes {
+class Students extends JavaProtectedAttributes {
     private int graduationYear = 2018;
     public static void main(String[] args) {
         Student myObj = new Student();
