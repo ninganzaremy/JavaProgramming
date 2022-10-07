@@ -3,9 +3,11 @@ public class JavaMethods {
     static void myMethod(String fname, int age) {
         System.out.println(fname + " is " + age);
     }
+
     static int myMathMethod(int x, int y) {
         return x + y;
     }
+
     // Create a checkAge() method with an integer variable called age
     static void checkAge(int age) {
 

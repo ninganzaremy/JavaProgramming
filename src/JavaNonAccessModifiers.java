@@ -8,6 +8,7 @@ final class JavaNonAccessModifiers {
     //abstract	The class cannot be used to create objects (To access an abstract class, it must be inherited from
     // another class.
     protected String brand = "Ford";
+
     public void honk() {
         System.out.println("Tuut, tuut!");
     }

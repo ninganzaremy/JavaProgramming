@@ -5,6 +5,7 @@
 // Interface
 interface MyAnimal {
     public void animalSound(); // interface method (does not have a body)
+
     public void sleep(); // interface method (does not have a body)
 }
 
@@ -14,6 +15,7 @@ class Piggs implements MyAnimal {
         // The body of animalSound() is provided here
         System.out.println("The pig says: wee wee");
     }
+
     public void sleep() {
         // The body of sleep() is provided here
         System.out.println("Zzz");

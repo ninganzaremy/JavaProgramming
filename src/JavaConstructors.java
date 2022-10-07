@@ -2,6 +2,7 @@ public class JavaConstructors {
     // Create a class attribute
     int modelYear;
     String modelName;
+
     // Create a class constructor for the JavaConstructors class
     public JavaConstructors(int year, String name) {
         modelYear = year;

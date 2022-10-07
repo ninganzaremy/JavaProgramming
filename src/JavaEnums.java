@@ -2,13 +2,7 @@
 //
 //To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma.
 // Note that they should be in uppercase letters:
-public class JavaEnums{
-    enum Level {
-        LOW,
-        MEDIUM,
-        HIGH
-    }
-
+public class JavaEnums {
     public static void main(String[] args) {
         Level myVar = Level.MEDIUM;
         System.out.println(myVar);
@@ -19,6 +13,12 @@ public class JavaEnums{
             System.out.println(myVars);
         }
 
+    }
+
+    enum Level {
+        LOW,
+        MEDIUM,
+        HIGH
     }
 }
 //Difference between Enums and Classes

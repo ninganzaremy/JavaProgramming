@@ -12,6 +12,7 @@
 
 class Vehicle {
     protected String brand = "Ford";        // Vehicle attribute
+
     public void honk() {                    // Vehicle method
         System.out.println("Tuut, tuut!");
     }
@@ -19,6 +20,7 @@ class Vehicle {
 
 class Car extends Vehicle {
     private String modelName = "Mustang";    // Car attribute
+
     public static void main(String[] args) {
 
         // Create a myCar object

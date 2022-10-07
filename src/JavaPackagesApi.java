@@ -1,5 +1,4 @@
-
-import java.util.Scanner; // import the Scanner class
+import java.util.Scanner;
 
 class JavaPackagesApi {
     public static void main(String[] args) {

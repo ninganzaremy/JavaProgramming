@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello Java");
         //Java data types
         int myNum = 5;               // integer (whole number)
@@ -37,7 +37,7 @@ public class Main {
             default:
                 System.out.println("Looking forward to the Weekend");
         }
-       // Outputs "Looking forward to the Weekend"
+        // Outputs "Looking forward to the Weekend"
         //Java While Loop
         int i = 0;
         while (i < 5) {
@@ -81,7 +81,7 @@ public class Main {
         String[] vehicles = {"Volvo", "BMW", "Ford", "Mazda"};
         System.out.println(vehicles[0]);
         //Change an Array Element
-        vehicles[0]= "Toyota";
+        vehicles[0] = "Toyota";
         //Array Length
         System.out.println(vehicles.length);
         //Loop Through an Array with For-Each
@@ -89,9 +89,9 @@ public class Main {
             System.out.println(car);
         }
         //Multidimensional Arrays
-        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        int[][] myNumbers = {{1, 2, 3, 4}, {5, 6, 7}};
         for (i = 0; i < myNumbers.length; ++i) {
-            for(int j = 0; j < myNumbers[i].length; ++j) {
+            for (int j = 0; j < myNumbers[i].length; ++j) {
                 System.out.println(myNumbers[i][j]);
             }
         }

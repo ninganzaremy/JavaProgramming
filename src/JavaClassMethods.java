@@ -5,11 +5,6 @@ public class JavaClassMethods {
         System.out.println("Static methods can be called without creating objects");
     }
 
-    // Public method
-    public void myPublicMethod() {
-        System.out.println("Public methods must be called by creating objects");
-    }
-
     // Main method
     public static void main(String[] args) {
         myStaticMethod(); // Call the static method
@@ -17,5 +12,10 @@ public class JavaClassMethods {
 
         JavaClassMethods myObj = new JavaClassMethods(); // Create an object of Main
         myObj.myPublicMethod(); // Call the public method on the object
+    }
+
+    // Public method
+    public void myPublicMethod() {
+        System.out.println("Public methods must be called by creating objects");
     }
 }

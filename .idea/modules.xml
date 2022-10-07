@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaRefresh.iml" filepath="$PROJECT_DIR$/JavaRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaRefresh.iml" filepath="$PROJECT_DIR$/javaRefresh.iml" />
     </modules>
   </component>
 </project>

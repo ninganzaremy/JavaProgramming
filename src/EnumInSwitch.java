@@ -9,7 +9,7 @@ public class EnumInSwitch {
     public static void main(String[] args) {
         Level myVar = Level.MEDIUM;
 
-        switch(myVar) {
+        switch (myVar) {
             case LOW:
                 System.out.println("Low level");
                 break;

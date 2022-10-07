@@ -3,16 +3,26 @@ public class Testing {
     private double firstNumber;
     private double secondNumber;
 
+    public static void main(String[] args) {
+        Testing calculator = new Testing();
+        calculator.setFirstNumber(5.0);
+        calculator.setSecondNumber(4);
+        System.out.println("add = " + calculator.getAdditionResult());
+        calculator.setFirstNumber(5.25);
+        calculator.setSecondNumber(0);
+        System.out.println("divide = " + calculator.getDivisionResult());
+    }
+
     public double getFirstNumber() {
         return firstNumber;
     }
 
-    public double getSecondNumber() {
-        return secondNumber;
-    }
-
     public void setFirstNumber(double firstNumber) {
         this.firstNumber = firstNumber;
+    }
+
+    public double getSecondNumber() {
+        return secondNumber;
     }
 
     public void setSecondNumber(double secondNumber) {
@@ -40,15 +50,5 @@ public class Testing {
 
         }
 
-    }
-
-    public static void main(String[] args) {
-        Testing calculator = new Testing();
-        calculator.setFirstNumber(5.0);
-        calculator.setSecondNumber(4);
-        System.out.println("add = " + calculator.getAdditionResult());
-        calculator.setFirstNumber(5.25);
-        calculator.setSecondNumber(0);
-        System.out.println("divide = " + calculator.getDivisionResult());
     }
 }

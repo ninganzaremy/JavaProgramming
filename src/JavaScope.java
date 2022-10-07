@@ -1,6 +1,6 @@
 public class JavaScope {
     public static void main(String[] args) {
-         //In Java, variables are only accessible inside the region they are created. This is called scope.
+        //In Java, variables are only accessible inside the region they are created. This is called scope.
         // Code here CANNOT use x
 
         { // This is a block
@@ -26,6 +26,7 @@ public class JavaScope {
         int result = sum(10);
         System.out.println(result);
     }
+
     public static int sum(int k) {
         if (k > 0) {
             return k + sum(k - 1);

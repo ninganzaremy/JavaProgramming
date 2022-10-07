@@ -8,6 +8,7 @@ public class JavaProtectedAttributes {
 
 class Students extends JavaProtectedAttributes {
     private int graduationYear = 2018;
+
     public static void main(String[] args) {
         Student myObj = new Student();
         System.out.println("Name: " + myObj.fname + " " + myObj.lname);
